@@ -5,7 +5,7 @@
 # Peer-2-Peer Chat
 
 A web powered one to one live chat application, enabling the sending and receiving of instant messages between two persons.
-
+This application embraces the usage of Web Sockets to enable realtime communication between users on the grid.
 
 ## Getting Started 💨
 
@@ -20,6 +20,10 @@ Requirements
 - [Mongo Express docker image](https://hub.docker.com/_/mongo-express/)
 - Browser (Chrome, Edge etc)
 - Code editor (Notepad++, VScode etc)
+
+## Ping me 📧 
+
+Ssekajja Wavamuno Isaac - On X [@IsaacWavamuno](https://twitter.com/Isaac_Whiz) - Mail ssekajjawavamuno@gmail.com
 
 ### Installing ⏬
 
@@ -65,71 +69,43 @@ Use the terminal (command line interface), browse to the location where you stor
 
 Then open the browser and enter `http://localhost:8081` then on the dashboard click `add database` button and add `chat_app` database.
 
-Open a new tab and type `http://localhost:27017` and voila, you have successfully configured and run the chat app. Next steps include logging in and starting to chat.
+Open a new tab and type `http://localhost:8088` and voila, you have successfully configured and run the chat app. Next steps include logging in and starting to chat.
 
-And repeat
+## Shots of the application 🖼
+
+<p align="center">  
+  <img src="https://github.com/Isaac-Whiz/Peer-2-Peer-Chat-App/assets/95527627/d4ed2d24-2fa5-4eed-9f0d-670a822f227c" alt="Login" style="border-radius:40px">
+</p>
+<p align="center">  
+  <img src="https://github.com/Isaac-Whiz/Peer-2-Peer-Chat-App/assets/95527627/037d2115-3288-41f9-bebe-2774d77e63f0" alt="Chat" style="border-radius:40px">
+</p>
+
+## Legality ⚖
+
+[GNU General Public License](https://github.com/Isaac-Whiz/Peer-2-Peer-Chat-App#)
+
+## Built With 🏗 🛠
+
+  - [Java](https://www.java.com/en/download/) - Used to craft the backend of the application (API) to recept and serve user requests.
+  
+  - [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript) - Used to make the api calls from the frontend to the back end of the application and also modification of the frontend due to the made request and respsctive reply.
     
+  - [HTML](https://html.com/) - Used to create the graphical user interface to the user, simply enabling the logging in and initiating a conversation.
 
-    until finished
+  - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used to beautify the mark-up of the frontend.
 
-End with an example of getting some data out of the system or using it
-for a little demo
+  - [Docker](https://www.docker.com/) - Used to create environment and housing the Mongo DB and Mongo Express images.
 
-## Running the tests
+## Contributing ⤴
 
-Explain how to run the automated tests for this system
+Adding to this project is highly welcomed and appricated from anyone. The user can add any feature desired to the project through
+- Forking the repository
+- Cloning the repository 
+- Create a branch named your proposed feature
+- Create the beautifull feature
+- Push your branch to remote <i>main</i> branch
+Thank you for making this project better.
 
-### Sample Tests
+## Acknowledgments 🧠
 
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - [Ali Bouli](https://aliboucoding.com/)
